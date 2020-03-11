@@ -171,7 +171,7 @@
 
 **How:**
 
-- Run `et publish-packages --prerelease --tag next` to publish all packages as `rc` versions and as `next` tag.
+- Run `et legacy-publish-packages --prerelease --tag next` to publish all packages as `rc` versions and as `next` tag.
 
 ## 3.4. Publishing prerelease project templates
 
@@ -329,7 +329,7 @@
 
 **How:**
 
-- On the release branch, use an expotool that will do all of the needed work - `et publish-packages`. You already used it to publish prereleased packages. Now we can publish them as stable releases and tag them as `latest` which is the default behavior of that script.
+- On the release branch, use an expotool that will do all of the needed work - `et legacy-publish-packages`. You already used it to publish prereleased packages. Now we can publish them as stable releases and tag them as `latest` which is the default behavior of that script.
 
 ## 6.2. Publishing final project templates
 
