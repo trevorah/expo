@@ -126,12 +126,6 @@ NSString *kEXHomeManifestResourceName = @"kernel-manifest";
 
 - (BOOL)appFetcherShouldInvalidateBundleCache:(__unused EXAppFetcher *)appFetcher
 {
-  // if crashlytics shows that we're recovering from a native crash, invalidate any downloaded home cache.
-  BOOL shouldClearKernelCache = [[NSUserDefaults standardUserDefaults] boolForKey:kEXKernelClearJSCacheUserDefaultsKey];
-  if (shouldClearKernelCache) {
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:kEXKernelClearJSCacheUserDefaultsKey];
-    return YES;
-  }
   return NO;
 }
 

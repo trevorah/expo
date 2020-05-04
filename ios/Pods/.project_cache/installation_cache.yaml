@@ -7105,13 +7105,6 @@ CACHE_KEYS:
     SPECS:
       - CocoaLumberjack (3.5.3)
       - CocoaLumberjack/Core (3.5.3)
-  Crashlytics:
-    BUILD_SETTINGS_CHECKSUM:
-      Crashlytics: 18eb32750400c4a09c302ff62fb03449
-    CHECKSUM: 540b7e5f5da5a042647227a5e3ac51d85eed06df
-    PROJECT_NAME: Crashlytics
-    SPECS:
-      - Crashlytics (3.14.0)
   DoubleConversion:
     BUILD_SETTINGS_CHECKSUM:
       DoubleConversion: 00ad3596e935bcd21487033fc301bf91
@@ -7956,13 +7949,6 @@ CACHE_KEYS:
     PROJECT_NAME: EXWebBrowser
     SPECS:
       - EXWebBrowser (8.2.0)
-  Fabric:
-    BUILD_SETTINGS_CHECKSUM:
-      Fabric: d7956d5bc4c7fcf740fb04a63ead4d55
-    CHECKSUM: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
-    PROJECT_NAME: Fabric
-    SPECS:
-      - Fabric (1.10.2)
   FBAudienceNetwork:
     BUILD_SETTINGS_CHECKSUM:
       FBAudienceNetwork: a4ace8e29238a5d6827948993cc85524
@@ -8218,16 +8204,16 @@ CACHE_KEYS:
       - nanopb/encode (0.3.9011)
   Pods-Exponent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 234b9984682505865bf98188fdf8ee97
-      Release: 234b9984682505865bf98188fdf8ee97
+      Debug: 7dd439f9f6fc9685eed2cf9c9202a79b
+      Release: 7dd439f9f6fc9685eed2cf9c9202a79b
   Pods-ExponentIntegrationTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8c94d5ea6c10a3e4056bfdf6596c84fa
-      Release: 8c94d5ea6c10a3e4056bfdf6596c84fa
+      Debug: 10df858f7a508a625ad32869cf920162
+      Release: 10df858f7a508a625ad32869cf920162
   Pods-Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 8c94d5ea6c10a3e4056bfdf6596c84fa
-      Release: 8c94d5ea6c10a3e4056bfdf6596c84fa
+      Debug: 10df858f7a508a625ad32869cf920162
+      Release: 10df858f7a508a625ad32869cf920162
   Protobuf:
     BUILD_SETTINGS_CHECKSUM:
       Protobuf: e9ec876cfd5ece357978b5d515d5282c
