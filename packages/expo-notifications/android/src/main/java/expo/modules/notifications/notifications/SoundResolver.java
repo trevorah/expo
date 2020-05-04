@@ -4,6 +4,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.net.Uri;
 import android.provider.Settings;
+import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
@@ -27,7 +28,7 @@ public class SoundResolver {
    */
   @Nullable
   public Uri resolve(@Nullable String filename) {
-    if (filename == null) {
+    if (TextUtils.isEmpty(filename)) {
       return null;
     }
 
